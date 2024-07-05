@@ -12,8 +12,8 @@ return require('packer').startup(function(use)
 	  -- or                            , branch = '0.1.x',
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
-  use ({ 
-	  "rose-pine/neovim", 
+  use ({
+	  "rose-pine/neovim",
 	  as = "rose-pine",
 	  config = function()
 		  vim.cmd('colorscheme rose-pine')
@@ -41,5 +41,5 @@ return require('packer').startup(function(use)
 		  {'L3MON4D3/LuaSnip'},
 	  }
   }
-  
+  use('bfrg/vim-cpp-modern')
 end)
