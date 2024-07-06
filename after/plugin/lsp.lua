@@ -10,6 +10,7 @@ require("mason").setup()
 require("mason-lspconfig").setup({
 	ensure_installed = {
 		"lua_ls",
+        "jdtls",
 	},
 	handlers = {
 		function(server_name) -- default handler (optional)
@@ -32,7 +33,7 @@ require("mason-lspconfig").setup({
 					}
 				}
 			}
-		end,
+        end,
 	}
 })
 
