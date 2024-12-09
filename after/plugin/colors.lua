@@ -31,5 +31,5 @@ require("tokyonight").setup({
     }
 })
 
-ColorMyPencils("onedark")
+ColorMyPencils("github_dark_default")
 
